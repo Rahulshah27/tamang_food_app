@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/ll1_featured_partners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_fragment_categories_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/ic_search" />
+
+            <TextView
+                android:id="@+id/tv_f_categories_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@+id/iv_fragment_categories_search"
+                android:fontFamily="@font/yugothib"
+                android:text="Search"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/t24" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_fragment_categories_search"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/yugothil"
+                android:padding="10dp"
+                android:text="Top Categories"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/t16"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvCategories"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ll1_featured_partners"
+            android:layout_marginStart="@dimen/d10"
+            android:layout_marginTop="9dp"
+            android:layout_marginEnd="@dimen/d10"
+            android:layout_marginBottom="@dimen/d10" />
+
+
+    </RelativeLayout>
+</layout>

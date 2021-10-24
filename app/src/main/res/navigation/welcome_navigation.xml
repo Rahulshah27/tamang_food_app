@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcome_navigation"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.tamangfoodservicetest.presentation.view.WelcomeFragment"
+        android:label="fragment_welcome_first"
+        tools:layout="@layout/fragment_welcome_first" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_welcomeFragmentSecond"
+            app:destination="@id/welcomeFragmentSecond" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragmentSecond"
+        android:name="com.example.tamangfoodservicetest.presentation.view.welcome.WelcomeFragmentSecond"
+        android:label="WelcomeFragmentSecond"
+        tools:layout="@layout/fragment_welocme_second">
+        <action
+            android:id="@+id/action_welcomeFragmentSecond_to_welcomeFragmentThird"
+            app:destination="@id/welcomeFragmentThird" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragmentThird"
+        android:name="com.example.tamangfoodservicetest.presentation.view.welcome.WelcomeFragmentThird"
+        android:label="WelcomeFragmentThird"
+        tools:layout="@layout/fragment_welcome_third">
+        <action
+            android:id="@+id/action_welcomeFragmentThird_to_welcomeFragmentFourth"
+            app:destination="@id/welcomeFragmentFourth" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragmentFourth"
+        android:name="com.example.tamangfoodservicetest.presentation.view.welcome.WelcomeFragmentFourth"
+        android:label="WelcomeFragmentFourth"
+        tools:layout="@layout/fragment_welcome_fourth"/>
+</navigation>

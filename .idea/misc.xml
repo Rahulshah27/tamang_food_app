@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/bottom_nav_icon_color_selector.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/divider.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_back.xml" value="0.31927083333333334" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_camera.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_current_location.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_delivery_time.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_free_delivery.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_path_99.xml" value="0.4296875" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_ractangle.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_required.xml" value="1.4857142857142858" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_search_item.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/ic_star_all_restaurants.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/indicator1.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/indicator1_active.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/indicator1_inactive.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/intro_button_bg.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/my_image_border.xml" value="1.4857142857142858" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/otp_border.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/rectangle.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/tab_color.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/drawable/take_away.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.4187358916478555" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/activity_location.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/activity_main.xml" value="0.3328804347826087" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/activity_restaurant.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/activity_welcome.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/activity_your_orders.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/custom_action_bar.xml" value="0.2989583333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment.xml" value="0.32916666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_add_to_order.xml" value="0.1858974358974359" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_all_restaurant.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_bakery_and_cafe.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_burgers.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_categories.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_create_account.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_featured_partners.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_filter.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_forget_password.xml" value="0.3740079365079365" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_forget_password_second.xml" value="0.5254691689008043" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_homepage.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_orders.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_payment.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_profile.xml" value="0.19322916666666667" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_provide_mobile_no.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_reset_email.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_search.xml" value="0.353125" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_search_items.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_sign_in.xml" value="0.22" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_signin.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_single_restaurant.xml" value="0.2486807387862797" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_single_restaurant_tab.xml" value="0.29" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_top_restaurant.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_verify_mobile_no.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_welcome.xml" value="0.25" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_welcome_first.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_welcome_fourth.xml" value="0.2534246575342466" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_welcome_third.xml" value="0.67" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_welocme_second.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/fragment_your_orders.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/horizontal_list_features.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/item_search.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/item_single_tab_fragment.xml" value="0.5025906735751295" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/item_top_restaurant.xml" value="0.3328804347826087" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/item_your_orders.xml" value="0.33" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/list_featured_parteners.xml" value="0.5140562248995983" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/list_horizontal_features.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/list_item_categories.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/list_item_featured_items.xml" value="0.3328804347826087" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/list_item_serach.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/list_item_top_restaurant.xml" value="0.75" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/list_item_top_restaurants.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/list_restaurants_items.xml" value="0.5948406676783005" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/recycler_places.xml" value="0.3328804347826087" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/reset_email.xml" value="0.5" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/restaurants_list_items.xml" value="0.5990521327014218" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/sign_up.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/layout/slide_item_homepage_container.xml" value="0.32916666666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/TamangFoodServiceTest/app/src/main/res/menu/menu_bottom_nav.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

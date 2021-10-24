@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    cardView:cardCornerRadius="8dp"
+    cardView:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_features"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            cardView:layout_constraintEnd_toEndOf="parent"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/bg_partners" />
+
+        <TextView
+            android:id="@+id/tv_features_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/yugothil"
+            android:text="Krispy Creme"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toBottomOf="@+id/iv_features" />
+
+        <TextView
+            android:id="@+id/tv_features_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/yugothil"
+            android:text="St Georgece Terrace, Perth"
+            android:textColor="@color/body_text"
+            android:textSize="12sp"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toBottomOf="@+id/tv_features_title" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toBottomOf="@+id/tv_features_location"
+            cardView:srcCompat="@drawable/ic_rate" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/yugothil"
+            android:text="25min"
+            android:textColor="@color/main_color"
+            android:textSize="10sp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView5"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView5"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/textView16"
+            cardView:layout_constraintStart_toEndOf="@+id/textView16"
+            cardView:layout_constraintTop_toTopOf="@+id/textView16"
+            cardView:srcCompat="@drawable/ic_oval" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/yugothil"
+            android:text="Free delivery"
+            android:textColor="@color/main_color"
+            android:textSize="10sp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView9"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

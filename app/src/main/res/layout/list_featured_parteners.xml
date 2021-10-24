@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    cardView:cardCornerRadius="8dp"
+    cardView:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_featured_partners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            cardView:layout_constraintEnd_toEndOf="parent"
+            cardView:layout_constraintHorizontal_bias="0.0"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/bg_feature_parterns" />
+
+        <TextView
+            android:id="@+id/tv_featured_partners_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/yugothil"
+            android:text="Tacos Nanchas"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toBottomOf="@+id/iv_featured_partners" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/iv_featured_partners"
+            cardView:layout_constraintEnd_toEndOf="parent"
+            cardView:srcCompat="@drawable/ic_rate" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/yugothil"
+            android:text="Chinese"
+            android:textColor="@color/main_color"
+            android:textSize="10sp"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toBottomOf="@+id/tv_featured_partners_title" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            cardView:layout_constraintBottom_toBottomOf="parent"
+            cardView:layout_constraintStart_toEndOf="@+id/textView16"
+            cardView:layout_constraintTop_toTopOf="@+id/textView16"
+            cardView:srcCompat="@drawable/ic_oval" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/yugothil"
+            android:text="American"
+            android:textColor="@color/main_color"
+            android:textSize="10sp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView9"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView9" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/yugothil"
+            android:text="25 Min"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView10"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView10"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView10" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:fontFamily="@font/yugothil"
+            android:text="Free"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView20"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView20"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView20" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="10dp"
+            cardView:layout_constraintBottom_toTopOf="@+id/imageView20"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:srcCompat="@drawable/ic_fast_delivery" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView5"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView5"
+            cardView:srcCompat="@drawable/ic_delivery_white" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

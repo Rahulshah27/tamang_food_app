@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_8ssp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16ssp"
+        android:src="@drawable/ic_path_99"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/ivArrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/tvName"
+        app:tint="@color/Gray" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/ivArrow"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/_16ssp"
+        android:textColor="@color/Black"
+        android:text="Name"
+        android:textSize="@dimen/_16ssp"
+        android:id="@+id/tvName"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/ivArrow"
+        app:layout_constraintTop_toBottomOf="@+id/tvName"
+        android:layout_marginStart="@dimen/_16ssp"
+        android:textColor="@color/Gray"
+        android:text="Name"
+        android:textSize="@dimen/_12ssp"
+        android:id="@+id/tvCity"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

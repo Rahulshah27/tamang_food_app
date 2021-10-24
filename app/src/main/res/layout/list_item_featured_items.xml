@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/d10"
+        android:foregroundGravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imageFeaturedItems"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/roundedCornersImageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tvFeaturedItemsName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/yugothil"
+            android:textStyle="bold"
+            android:textSize="@dimen/t14"
+            android:textColor="@color/main_color"
+            app:layout_constraintStart_toStartOf="@+id/imageFeaturedItems"
+            app:layout_constraintTop_toBottomOf="@+id/imageFeaturedItems" />
+
+        <TextView
+            android:id="@+id/tvRVPartnerCountry1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/yugothib"
+            android:text="@string/chinese"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="@+id/tvFeaturedItemsName"
+            app:layout_constraintTop_toBottomOf="@+id/tvFeaturedItemsName" />
+
+        <ImageView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/ic_oval"
+            app:layout_constraintBottom_toBottomOf="@+id/tvRVPartnerCountry1"
+            app:layout_constraintStart_toEndOf="@+id/tvRVPartnerCountry1"
+            app:layout_constraintTop_toTopOf="@+id/tvRVPartnerCountry1"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tvRVPartnerCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/yugothib"
+            android:text="@string/american"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/textView12"
+            app:layout_constraintTop_toTopOf="@+id/tvRVPartnerCountry1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

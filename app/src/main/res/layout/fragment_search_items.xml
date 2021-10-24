@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:weightSum="1"
+            app:layout_constraintBottom_toTopOf="@+id/tvSearchType"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchItem"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight=".2" />
+
+            <TextView
+                android:id="@+id/tvSearchItemCancel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight=".8"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:fontFamily="@font/yugothib"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/t16" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvSearchType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".8"
+            android:gravity="center"
+            android:text="@string/recent_searches"
+            android:fontFamily="@font/yugothil"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/t14"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+        <TextView
+            android:id="@+id/tvSearchItemClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_weight=".8"
+            android:gravity="center"
+            android:text="@string/clear_all"
+            android:fontFamily="@font/yugothil"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/t14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSearchItems"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="@dimen/d10"
+            android:layout_marginHorizontal="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSearchType" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

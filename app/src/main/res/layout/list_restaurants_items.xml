@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    cardView:cardCornerRadius="10dp"
+    cardView:cardElevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_restaurant_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/yugothil"
+            android:text="McDonald's"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toBottomOf="@+id/iv_restaurant" />
+
+        <ImageView
+            android:id="@+id/iv_restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            cardView:layout_constraintEnd_toEndOf="parent"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toTopOf="parent"
+            cardView:srcCompat="@drawable/bg_restaurants" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/yugothil"
+            android:text="$$"
+            android:textColor="@color/body_text"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toBottomOf="@+id/tv_restaurant_title" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/yugothil"
+            android:text="Chinese"
+            android:textColor="@color/body_text"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView17"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView17"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView17" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/yugothil"
+            android:text="American"
+            android:textColor="@color/body_text"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView15"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView15"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/yugothil"
+            android:text="Deshi food"
+            android:textColor="@color/body_text"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView16"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView16"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView16" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/yugothil"
+            android:text="200+ Ratings"
+            android:textColor="@color/main_color"
+            android:textSize="10sp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView14"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView14"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView14" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/yugothil"
+            android:text="4.3"
+            android:textColor="@color/main_color"
+            android:textSize="10sp"
+            cardView:layout_constraintBottom_toBottomOf="parent"
+            cardView:layout_constraintStart_toStartOf="parent"
+            cardView:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/textView30"
+            cardView:layout_constraintStart_toEndOf="@+id/textView30"
+            cardView:layout_constraintTop_toTopOf="@+id/textView30"
+            cardView:srcCompat="@drawable/ic_clock" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView18"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView18"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView18"
+            cardView:srcCompat="@drawable/ic_delivery" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/textView31"
+            cardView:layout_constraintStart_toEndOf="@+id/textView31"
+            cardView:layout_constraintTop_toTopOf="@+id/textView31"
+            cardView:srcCompat="@drawable/ic_rating" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/textView27"
+            cardView:layout_constraintStart_toEndOf="@+id/textView27"
+            cardView:layout_constraintTop_toTopOf="@+id/textView27"
+            cardView:srcCompat="@drawable/ic_oval" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/yugothil"
+            android:text="Free"
+            android:textColor="@color/main_color"
+            android:textSize="10sp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView13"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView13"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView13" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/yugothil"
+            android:text="25 Min"
+            android:textColor="@color/main_color"
+            android:textSize="10sp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/imageView12"
+            cardView:layout_constraintStart_toEndOf="@+id/imageView12"
+            cardView:layout_constraintTop_toTopOf="@+id/imageView12" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/textView28"
+            cardView:layout_constraintStart_toEndOf="@+id/textView28"
+            cardView:layout_constraintTop_toTopOf="@+id/textView28"
+            cardView:srcCompat="@drawable/ic_oval" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/textView26"
+            cardView:layout_constraintStart_toEndOf="@+id/textView26"
+            cardView:layout_constraintTop_toTopOf="@+id/textView26"
+            cardView:srcCompat="@drawable/ic_oval" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            cardView:layout_constraintBottom_toBottomOf="@+id/textView33"
+            cardView:layout_constraintStart_toEndOf="@+id/textView33"
+            cardView:layout_constraintTop_toTopOf="@+id/textView33"
+            cardView:srcCompat="@drawable/ic_oval" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

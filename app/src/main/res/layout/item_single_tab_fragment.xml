@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/yugothil"
+        android:text="Chinese"
+        android:textColor="@color/main_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
+        app:layout_constraintStart_toEndOf="@+id/imageView23"
+        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/image_single_restaurants"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        app:shapeAppearanceOverlay="@style/roundedCornersImageView"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/bg_food" />
+
+    <TextView
+        android:id="@+id/tv_single_restaurants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/yugothil"
+        android:text="Cookie Sandwich"
+        android:textColor="@color/main_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/image_single_restaurants"
+        app:layout_constraintTop_toTopOf="@+id/image_single_restaurants" />
+
+    <TextView
+        android:id="@+id/tv_single_restaurantsDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/yugothil"
+        android:text="Shortbread, chocolate turtle\n cookies, and red velvet."
+        android:textColor="@color/main_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/image_single_restaurants"
+        app:layout_constraintTop_toBottomOf="@+id/tv_single_restaurants" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/yugothil"
+        android:text="$$"
+        android:textColor="@color/main_color"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/image_single_restaurants"
+        app:layout_constraintStart_toEndOf="@+id/image_single_restaurants"
+        app:layout_constraintTop_toBottomOf="@+id/tv_single_restaurantsDesc" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/yugothib"
+        android:text="AUD$10"
+        android:textColor="#EEA734"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView39"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView39" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView21"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toTopOf="@+id/textView21"
+        app:srcCompat="@drawable/ic_oval" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
